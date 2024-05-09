@@ -3,31 +3,48 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
+define c = Character("JohnVlogsTTV")
 
 
 # The game starts here.
 
 label start:
+    c ""
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
+    menu:
+        "What kind of video should I make today?"
 
-    scene bg room
+        "A scary video":
+            jump scary
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
+        "A prank video":
+            jump prank
 
-    show eileen happy
+        "A challenge video":
+            jump challenge
 
-    # These display lines of dialogue.
+        "Passion video":
+            
+            
+    
+    return
 
-    e "You've created a new Ren'Py game."
+label scary:
+    c "Yo what's up, guys. Today we're boutta enter... The Aokigahara Forest!"
+    c "This is gonna be a big deal, guys. You know why?"
+    c "Cause this forest is known as the Sea of Trees, also known as..."
+    c "The Japanese Suicide Forest!"
+    "*scary_thump_sound_effect.wav*"
+    c "This is not a freaking joke."
+    "*cuts to being in forest*"
+    c "Okay guys this is absolutely crazy"
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    return
 
-    # This ends the game.
+label prank:
+    c "prank"
+    return
 
+label silly:
+    c "silly"
     return
