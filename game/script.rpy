@@ -62,6 +62,7 @@ init python:
 # The game starts here.
 
 label start:
+    play music "audio/intro bgm.mp3"
     john "The name's John."
     show john neet with dissolve:
         zoom 0.75
@@ -140,6 +141,7 @@ label start:
     "*queue in epic intro*"
     $ renpy.movie_cutscene("images/epic intro.webm")
 
+    play music "audio/forest ambience.mp3"
     scene bg forest entrance with dissolve
     show john arms crossed beanie with moveinleft:
         zoom 1.25
