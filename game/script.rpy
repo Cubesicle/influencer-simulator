@@ -6,6 +6,8 @@
 define john = Character("John")
 define cameron = Character("Camera Man")
 
+init python:
+    config.auto_voice = "voice/{id}.ogg"
 
 # The game starts here.
 
@@ -16,21 +18,20 @@ label start:
     john "For so long, I have nothing under my belt."
     john "My school life has always been lacking, with terrible grades and no social skills, I just wander around."
     john "My parents have been begging me to do something with my life, yet there's nothing I want to do."
-    john "That is... until I found out about the possibility of the online world."
+    john "That is... until I found out about the possibilities of the online world."
     john "I've been inspired by a lot of gaming YouTubers lately, and it gave me the incentive to make my own YouTube channel."
-    john "I thought I could make a career out of it, maybe like my favorite youtuber Pengu."
-    john "Rainbow 6 siege was one of my favorite games to play, so I made dozens of clips and montages and uploaded them, hoping to become popular one day."
+    john "I thought I could make a career out of it, maybe like my favorite YouTuber, Pengu."
+    john "Rainbow Six Siege was one of my favorite games to play, so I made dozens of clips and montages and uploaded them, hoping to become popular one day."
     john "Several months have passed, and not a single person laid eyes on a single video."
     john "I'm screwed! How am I supposed to make money!?"
     john "Maybe I can ask my rich friend how he got his money."
-    john "...wait"
-    john "I can use him for my videos!"
+    john "...Wait, I can use him for my videos!"
     john "I can ask him to help me vlog!"
     john "Vlogging crazy situations seems to garner tons of views, but where should I vlog?"
     john "Hmmm..."
     john "I think I know a place."
 
-    john "Hello chat, today's video is gonna hit different from the usual Rainbow 6 epic snipes montages I make."
+    john "Hello chat, today's video is gonna hit different from the usual Rainbow Six epic snipes montages I make."
     john "A good friend of mine flew me over to Japan, so I could start a new vlogging career."
     john "Y'all better get ready, cause this vid's gonna be wild."
     "*queue in epic intro*"
